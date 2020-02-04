@@ -1,6 +1,4 @@
-class User
-
-  attr_reader :username, :password, :balance
+class User < ActiveRecord::Base
 
 
 end
